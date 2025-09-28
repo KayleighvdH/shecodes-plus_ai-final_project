@@ -51,12 +51,14 @@ form {
 	border-left: 5px solid #96a78d;
 	border-radius: 10px;
 	box-shadow: 0px 20px 60px #b6ceb4;
+	color: #000000bb;
 	font-size: 15px;
 	line-height: 20px;
 	margin-bottom: 20px;
 	padding: 20px;
 }
 footer {
+	color: #000000bb;
 	font-size: 12px;
 	text-align: center;
 }
