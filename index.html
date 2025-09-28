@@ -8,37 +8,41 @@
 		<title>AI Poems Generator</title>
 	</head>
 	<body>
-		<header>
-			<h1>Welcome to my Poem Generator</h1>
-		</header>
+		<div class="container">
+			<header>
+				<h1>Welcome to my Poem Generator</h1>
+			</header>
 
-		<main>
-			<form>
-				<input
-					type="text"
-					placeholder="Enter the topic of your poem"
-					autofocus
-					required
-					autocomplete="off" />
-				<input type="submit" />
-			</form>
+			<main>
+				<form>
+					<input
+						type="text"
+						placeholder="Enter the topic of your poem"
+						autofocus
+						required
+						autocomplete="off"
+						class="instructions" />
+					<input type="submit" class="submit-button" />
+				</form>
 
-			<div>The Poem will go here</div>
-		</main>
+				<div class="poem">The Poem will go here</div>
+			</main>
 
-		<footer>
-			<p>
-				This AI project was coded by
-				<a href="https://github.com/KayleighvdH" target="_blank"
-					>Kayleigh van der Heijden</a
-				>, is
-				<a href="https://github.com/KayleighvdH/shecodes-plus_ai-final_project"
-					>open-sourced on Github</a
-				>
-				and is
-				<a href="kayleighvdh-poemgenerator.netlify.app">hosted on Netlify</a>.
-			</p>
-		</footer>
+			<footer>
+				<p>
+					This AI project was coded by
+					<a href="https://github.com/KayleighvdH" target="_blank"
+						>Kayleigh van der Heijden</a
+					>, is
+					<a
+						href="https://github.com/KayleighvdH/shecodes-plus_ai-final_project"
+						>open-sourced on Github</a
+					>
+					and is
+					<a href="kayleighvdh-poemgenerator.netlify.app">hosted on Netlify</a>.
+				</p>
+			</footer>
+		</div>
 
 		<script src="/src/index.js"></script>
 	</body>
