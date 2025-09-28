@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- Link CSS File -->
 		<link rel="stylesheet" href="/src/style.css" />
+		<!-- Import Axios -->
+		<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 		<!-- Import TypewriterJS -->
 		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 		<title>AI Poems Generator</title>
@@ -23,7 +25,8 @@
 						autofocus
 						required
 						autocomplete="off"
-						class="instructions" />
+						class="instructions"
+						id="user-instructions" />
 					<input type="submit" class="submit-button" />
 				</form>
 
