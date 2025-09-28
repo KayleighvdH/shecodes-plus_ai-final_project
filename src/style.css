@@ -15,7 +15,7 @@ a {
 h1 {
 	color: #5d866c;
 	font-weight: 800;
-	font-size: 40px;
+	font-size: 55px;
 	line-height: 1.5;
 	text-align: center;
 }
@@ -56,6 +56,9 @@ form {
 	line-height: 2;
 	margin-bottom: 20px;
 	padding: 20px;
+}
+.hidden {
+	display: none;
 }
 footer {
 	color: #000000bb;
